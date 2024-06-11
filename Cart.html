@@ -6,7 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    
     <header>
         <a href="index.html" id="TheBrand">
             <img id="Logo_Image" src="Image\Meubel House_Logos-05.png" alt="Furniro icon">
@@ -29,46 +28,64 @@
            </ul>
         </nav>
     </header>
-
     <main>
-        <!--Section1-->
-        <section id="Section1">
-            <img id="Sec_1_BG_Pic" src="Image\scandinavian-interior-mockup-wall-decal-background 1.png" alt="interior background picture">
-            <div>
-                <p id="Sec1_Title">New arrival</p>
-                <h1 id="Sec1_Heading">Discover Our New Collection</h1>
-                <p id="Sec">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                <button id="Buy_Button"> Buy now</button>
-            </div>
+    <section id="Page_Route">
+            <img id="Page_Route_Logo_Display" src="Image\Meubel House_Logos-05.png" alt="Furniro icon">
+            <h2 id="Current_page">Cart</h2>
+            <a href="index.html" id="Start_point">Home</a>
+            <span id="Direction_Icon"> > </span>
+            <span id="Current_point">Cart</span>
         </section>
-        <!--Section2-->
-        <section>
-            <h2>Browse the range</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div>
-                <img src="Image\DinningTable.png" alt="Dinning interior">
-                <p>Dinning</p>
-            </div>
-        </section>
-        <!-- section 3-->
-        <section>
-            <h2>Our product</h2>
-            <div class="Product Selection Area">
-                <div class="Column_1 Row_1" id="R1C1">
-                    <div class="ProductContainer">
-                    <img src="Image/image 1.png" alt="Syltherine">
-                    <span><p>-30%</p></span>
-                    <h3>Syltherine</h3>
-                    <p>Stylish cafe chair</p>
-                    <h4>Rp 2.500.000</h4>
-                    <p><del>Rp 3.500.000</del></p>
-                    </div>
-                </div>
-            </div>
-            <button>Show more</button>
-        </section>
-    </main>
+     <section id="The_cart">
+        <div id="Basic_cart_info">
+            <ul id="List_of_item_in_Cart">
+                <li id="Cart_label_1" class="Cart_title">Product</li>
+                <li id="Cart_label_2" class="Cart_title">Price</li>
+                <li id="Cart_label_3" class="Cart_title">Quantity</li>
+                <li id="Cart_label_4" class="Cart_title">Subtotal</li>
+            </ul>
+        </div>
+        <div id="list_of_item">
+            <ol>
+                <li><div id="An_item_1" class="Selected_item">
+                    <img src="Image/Asgaard sofa 5.png" alt="Selected item">
+                    <p id="item_1_name">  Asgaard sofa  </p>
+                    <p id="item_1_price">  Rs. 250,000.00 </p>
+                    <span id="item_1_quantity">1</span>
+                    <p id="item_1_Subtotal">  Rs. 250,000.00 </p>
+                    <span id="item_1_dispose_icon">dispose</span>
+                </div></li>
+            </ol>   
+            <aside id="Cart_toal">
+                <h4 id="Cart_total_header" >Cart Total</h4>
+                <p id="Cart_label_subtotal" class="Cart_checkout_title">Subtotal</p>
+                <p id="Cart_subtotal_value">Rs. 250,000.00</p>
+                <p id="Cart_label_total" class="Cart_checkout_title">Total</p>
+                <p id="Cart_total_value">Rs. 250,000.00</p>
+                <button id="Checkout_button">Check Out</button>
+            </aside>
 
+        </div>
+    </section>
+    <Section id="Banner">
+        <div id="Promise_1" class="Banner">
+            <h4 id="Promise_1_header" class="Banner_header">High Quality</h4>
+            <p id="Promise_1_detail" class="Promise_detail">crafted from top materials</p>
+        </div>
+        <div id="Promise_2" class="Banner">
+            <h4 id="Promise_2_header" class="Banner_header">Warranty Protection</h4>
+            <p id="Promise_2_detail" class="Promise_detail">Over 2 years</p>
+        </div>
+        <div id="Promise_3" class="Banner">
+            <h4 id="Promise_3_header" class="Banner_header">Free Shipping</h4>
+            <p id="Promise_3_detail" class="Promise_detail">Order over 150 $</p>
+        </div>
+        <div id="Promise_4" class="Banner">
+            <h4 id="Promise_4_header" class="Banner_header">24 / 7 Support</h4>
+            <p id="Promise_4_detail" class="Promise_detail">Dedicated support</p>
+        </div>
+    </Section>  
+    </main>
     <footer>
         <div id="Brand:Location">
             <h2 id="Brand_Name_footer">Furniro</h2>
@@ -92,6 +109,7 @@
                     <li><a href="" class="nav_link_footer">Privacy Policy</a></li>
                 </ul>
             </div>
+            
 
             <form action="  ">
                 <label for="" id="footer_form_title">Newsletter</label>
